@@ -2,7 +2,7 @@
   "name": "secret-message",
   "version": "1.0.0",
   "description": "App to send secret messages",
-  "main": "index.html",
+  "default": "index.html",
   "dependencies": {
     "parcel": "^2.0.0-nightly.551"
   },
