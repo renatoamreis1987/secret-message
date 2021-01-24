@@ -1,0 +1,24 @@
+{
+  "name": "secret-message",
+  "version": "1.0.0",
+  "description": "App to send secret messages",
+  "main": "index.html",
+  "dependencies": {
+    "parcel": "^2.0.0-nightly.551"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatoamreis1987/secret-message.git"
+  },
+  "author": "Renato Reis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatoamreis1987/secret-message/issues"
+  },
+  "homepage": "https://github.com/renatoamreis1987/secret-message#readme"
+}
