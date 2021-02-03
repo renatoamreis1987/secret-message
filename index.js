@@ -20,6 +20,6 @@ document.querySelector("form").addEventListener("submit", (e) => {
 
   const linkInput = document.querySelector("#link-input");
 
-  linkInput.value = `${window.location}#${encrypted}`;
+  linkInput.value = `${window.location.href}#${encrypted}`;
   linkInput.select();
 });
